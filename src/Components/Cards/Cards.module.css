@@ -1,0 +1,13 @@
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+@media (max-width:600px) {
+    .cardsContainer {
+        top: 200px;
+    }
+}

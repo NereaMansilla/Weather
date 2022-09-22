@@ -1,0 +1,37 @@
+
+
+
+.blaknMap{
+    height:100%;
+    width:100%;
+ position: relative;
+
+}
+
+.textNotFound{
+position:absolute;
+right:37%;
+top:-10%;
+}
+
+.textNotFoundLight{
+    color: #000;
+}
+
+.textNotFoundDark{
+    color:#fff;
+}
+
+
+.text2NotFound{
+    position:absolute;
+   right:38%;
+}
+
+.text2NotFoundLight{
+    color: #000;
+}
+
+.text2NotFoundDark{
+    color:#fff;
+}

@@ -1,0 +1,10 @@
+ .light {
+     height: 100vh;
+     background-color: #cfa9fe;
+ }
+
+
+ .dark {
+     height: 100vh;
+     background-color: #212121;
+ }

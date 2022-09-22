@@ -1,0 +1,82 @@
+.hours {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 90%;
+  height: 15%;
+  position: relative;
+  left: 10%;
+  top: 18%;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.353);
+  /*  border-radius: 90px; */
+
+  overflow-y: scroll;
+
+
+}
+.hoursLight{
+  background-color: rgba(30, 29, 29, 0.218);
+}
+.containerHours {
+ 
+  margin-left: 40px;
+}
+
+.timeBottom {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.timeBottomDark {
+  color: #fff;
+}
+
+.tempBottom {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.tempBottomDark {
+  color: #fff
+}
+
+.imgBottom {
+  height: 50px;
+  width: 50px;
+}
+
+
+.hours::-webkit-scrollbar {
+  border-radius: 10px;
+  background: rgb(212, 212, 237);
+  margin-block: 1em;
+
+
+}
+
+.hours::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 128, 169);
+  border-radius: 10px;
+}
+
+
+@media (max-width:600px){
+
+  .hours{
+    top:25%;
+  }
+  .tempBottom,.timeBottom{
+    font-size:1em;
+  }
+
+  .containerHours {
+ 
+    margin-left: 15px;
+  }
+
+.imgBottom{
+  position:relative;
+  right:15%;
+}
+}
