@@ -11,7 +11,7 @@ export function getCity(city) {
 
    return async function (dispatch) {
       dispatch({ type: LOADING, payload: true })
-      return fetch(`http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_WEATHER_KEY}&q=${city}&days=5&aqi=no&alerts=no`)
+      return fetch(`http://api.weatherapi.com/v1/forecast.json?key=ee7ed3f16f36487e80f62924220607&q=${city}&days=5&aqi=no&alerts=no`)
          .then(r => r.json())
          .then(r => {
             dispatch({
