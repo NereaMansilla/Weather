@@ -6,8 +6,8 @@
     top: 100px;
 }
 
-@media (max-width:600px) {
+/* @media (max-width:600px) {
     .cardsContainer {
         top: 200px;
     }
-}
+} */
