@@ -58,3 +58,10 @@ input:checked + .slider:before {
     right:50px;
     top:15px;
 }
+
+@media screen and (max-width:600px) {
+    .container{
+        right:0px;
+        top:0px;
+    }
+}
