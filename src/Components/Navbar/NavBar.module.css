@@ -69,7 +69,7 @@
 
 @media (max-width:600px) {
     .containerSearch {
-        justify-content: end;
+        align-items: flex-end;
     }
 
     .input {
