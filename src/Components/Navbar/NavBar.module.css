@@ -71,4 +71,8 @@
     .input {
         width: 40%;
     }
+
+    .search {
+        right: 40%;
+    }
 }
