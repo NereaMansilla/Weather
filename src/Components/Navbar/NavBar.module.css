@@ -70,7 +70,7 @@
 @media (max-width:600px) {
     .input {
         width: 40%;
-        align-items: center;
+        top: 20%;
     }
 
     .search {
