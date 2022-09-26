@@ -10,7 +10,8 @@ export function getCity(city) {
    return async function (dispatch) {
       try {
          dispatch({ type: LOADING, payload: true })
-         const ciudad = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=5&aqi=no&alerts=no`)
+         const ciudad = await axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_WEATHER_KEY}&q=${city}&days=5&aqi=no&alerts=no`)
+         console.log(process.env.REACT_APP_WEATHER_KEY)
          dispatch({ type: LOADING, payload: false })
          return dispatch({
             type: GET_CITY,
