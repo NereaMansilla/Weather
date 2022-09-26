@@ -1,37 +1,44 @@
+.containerNotfound {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
-
-
-.blaknMap{
-    height:50%;
-    width:50%;
- position: relative;
+.blaknMap {
+    height: 70vh;
+    width: 50%;
+    position: relative;
+    top: 100px;
 
 }
 
-.textNotFound{
-position:absolute;
-right:37%;
-top:-10%;
+.textNotFound {
+    position: absolute;
+    right: 37%;
+    top: 15%;
 }
 
-.textNotFoundLight{
+.textNotFoundLight {
     color: #000;
 }
 
-.textNotFoundDark{
-    color:#fff;
+.textNotFoundDark {
+    color: #fff;
 }
 
 
-.text2NotFound{
-    position:absolute;
-   right:38%;
+.text2NotFound {
+    position: absolute;
+    right: 38%;
+    bottom:10%;
+    
 }
 
-.text2NotFoundLight{
+.text2NotFoundLight {
     color: #000;
 }
 
-.text2NotFoundDark{
-    color:#fff;
+.text2NotFoundDark {
+    color: #fff;
 }
