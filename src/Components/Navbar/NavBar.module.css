@@ -74,11 +74,12 @@
 
     .input {
         width: 40%;
-        top: 30%;
+        top: 100px;
 
     }
 
     .search {
         right: 30%;
+        top: 100px;
     }
 }
