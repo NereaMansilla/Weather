@@ -70,11 +70,11 @@
 @media (max-width:600px) {
     .containerSearch {
         height: 15%;
-        align-content: flex-end;
     }
 
     .input {
         width: 40%;
+        align-content: flex-end;
 
     }
 
