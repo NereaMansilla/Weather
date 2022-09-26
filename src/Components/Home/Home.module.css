@@ -1,10 +1,16 @@
  .light {
      height: 100vh;
-     background-color: #cfa9fe;
+     background-color: #ebdefb;
  }
 
 
  .dark {
      height: 100vh;
      background-color: #212121;
+ }
+
+ @media screen and (max-width:600px) {
+     body {
+         overflow: hidden;
+     }
  }
