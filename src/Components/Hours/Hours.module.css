@@ -15,11 +15,13 @@
 
 
 }
-.hoursLight{
+
+.hoursLight {
   background-color: rgba(30, 29, 29, 0.218);
 }
+
 .containerHours {
- 
+
   margin-left: 40px;
 }
 
@@ -61,22 +63,32 @@
 }
 
 
-@media (max-width:600px){
+@media screen and (max-width:600px) {
 
-  .hours{
-    top:25%;
+  .hours {
+    top: 25%;
+
   }
-  .tempBottom,.timeBottom{
-    font-size:1em;
+
+  .tempBottom,
+  .timeBottom {
+    font-size: 1em;
   }
 
   .containerHours {
- 
+
     margin-left: 15px;
   }
 
-.imgBottom{
-  position:relative;
-  right:15%;
-}
+  .imgBottom {
+    position: relative;
+    right: 15%;
+  }
+
+  .containerHours {
+
+    margin-left: 30px;
+  }
+
+
 }
