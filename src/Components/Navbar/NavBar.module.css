@@ -68,9 +68,13 @@
 
 
 @media (max-width:600px) {
+    .containerSearch {
+        justify-content: end;
+    }
+
     .input {
         width: 40%;
-        top: 20%;
+
     }
 
     .search {
