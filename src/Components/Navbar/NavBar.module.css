@@ -1,18 +1,17 @@
 .containerSearch {
     height: 10%;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
 }
 
 .input {
     height: 40px;
     width: 30%;
     border-radius: 30px;
-    position: relative;
-    top: 30px;
-    left: 550px;
     border: none;
     font-size: 1.5em;
-
+    position: relative;
 
 
 }
@@ -23,18 +22,18 @@
 
 .input:focus {
     outline: none;
-    cursor:text;
+    cursor: text;
     caret-color: #000;
 
 }
 
 .input::placeholder {
-    
+
     letter-spacing: 1px;
     color: rgb(84, 83, 83);
     font-style: italic;
-    font-size:20px;
-    
+    font-size: 20px;
+
 }
 
 
@@ -46,31 +45,26 @@
 
 .dark {
     background-color: rgba(0, 0, 0, 0.931);
-    color:#fff;
+    color: #fff;
     caret-color: #fff;
-    
+
 }
-.dark:focus{
+
+.dark:focus {
     caret-color: #fff;
 }
 
 .search {
-    position: relative;
+    /* position: relative;
     left: 600px;
-    top: 35px;
+    top: 35px; */
+    position: absolute;
+    right: 36%;
+    margin: 5px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
 
-@media (max-width:600px){
-    .input{
-        left:25%;
-        width:50%;
-    }
-
-    .search{
-        left:27%;
-    }
-}
+@media (max-width:600px) {}
