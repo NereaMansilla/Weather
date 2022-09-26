@@ -1,12 +1,15 @@
 
+import axios from 'axios'
 export const GET_CITY = 'GET_CITY'
 export const GET_DETAILS = 'GET_DETAILS'
 export const DELETE_SEARCH = 'DELETE_SEARCH'
 export const LOADING = 'LOADING'
 export const CLEAR_DETAIL = 'CLEAR_DETAIL'
 export const DARK_MODE = 'DARK_MODE'
+export const ERROR = 'ERROR'
+
 /* const apiKey = process.env.REACT_APP_WEATHER_KEY */
-/* export function getCity(city) {
+export function getCity(city) {
    return async function (dispatch) {
       try {
          dispatch({ type: LOADING, payload: true })
@@ -18,13 +21,16 @@ export const DARK_MODE = 'DARK_MODE'
             payload: ciudad.data
          })
       } catch (error) {
-         console.log(error)
+         dispatch({
+            type: ERROR,
+            payload: false
+         })
       }
    }
-} */
+}
 
 
-export function getCity(city) {
+/* export function getCity(city) {
 
    return async function (dispatch) {
       dispatch({ type: LOADING, payload: true })
@@ -42,7 +48,7 @@ export function getCity(city) {
 
    }
 
-}
+} */
 
 
 

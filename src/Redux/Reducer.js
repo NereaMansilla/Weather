@@ -1,11 +1,12 @@
 
-import { GET_CITY, DELETE_SEARCH, LOADING, CLEAR_DETAIL, DARK_MODE } from './Actions'
+import { GET_CITY, DELETE_SEARCH, LOADING, CLEAR_DETAIL, DARK_MODE, ERROR } from './Actions'
 
 const initialState = {
   city: [],
   hours: {},
   backUp: [],
   loading: false,
+  error: false,
   dark:true
 
 }
@@ -47,12 +48,18 @@ function rootReducer(state = initialState, action) {
         city: [],
         backUp: [],
         hours:{},
+        error:false
       }
       case DARK_MODE:
         return{
           ...state,
           dark:action.payload
         }
+        case ERROR:
+          return{
+            ...state,
+            error:true
+          }
     default:
       return {
         ...state
