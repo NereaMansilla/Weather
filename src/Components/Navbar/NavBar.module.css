@@ -69,6 +69,7 @@
 
 @media (max-width:600px) {
     .containerSearch {
+        height: 15%;
         align-items: flex-end;
     }
 
