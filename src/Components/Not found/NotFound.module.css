@@ -12,16 +12,12 @@
     top: 100px;
 }
 
-/* .textNotFound{
-   align-items: flex-end;
-   justify-content: flex-end;
-   align-content: flex-end;
-} */
+
 
 
 .textNotFound {
     position: absolute;
-    right: 37%;
+    right: 40%;
     top: 15%;
 }
 
