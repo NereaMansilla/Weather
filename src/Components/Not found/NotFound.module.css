@@ -10,8 +10,14 @@
     width: 50%;
     position: relative;
     top: 100px;
-
 }
+
+/* .textNotFound{
+   align-items: flex-end;
+   justify-content: flex-end;
+   align-content: flex-end;
+} */
+
 
 .textNotFound {
     position: absolute;
@@ -30,9 +36,9 @@
 
 .text2NotFound {
     position: absolute;
-    right: 38%;
-    bottom:10%;
-    
+    right: 35%;
+    bottom: 10%;
+
 }
 
 .text2NotFoundLight {
@@ -41,4 +47,22 @@
 
 .text2NotFoundDark {
     color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .blaknMap {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .textNotFound,
+    .text2NotFound {
+        font-size: 1.5em;
+        right: 10%;
+    }
+
+    .text2NotFound {
+        bottom: 25%;
+    }
+
 }
