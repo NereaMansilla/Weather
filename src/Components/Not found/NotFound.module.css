@@ -37,7 +37,7 @@
 .text2NotFound {
     position: absolute;
     right: 35%;
-    bottom: 15%;
+    bottom: 10%;
 
 }
 
@@ -62,7 +62,7 @@
     }
 
     .text2NotFound {
-        bottom: 30%;
+        bottom: 15%;
     }
 
 }
