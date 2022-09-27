@@ -107,15 +107,20 @@
 
 
 @media (max-width:600px){
+  body {
+    overflow: hidden;
+  } 
+
 .containerVector{
   transform: rotate(90deg);
-  position:relative;
-  top:250px;
+ 
   
 }
 
 .vector{
-  width:100%;
+  /* width: 100%;
+  height:100vh; */
+  object-fit:contain;
      
 }
 
