@@ -9,7 +9,7 @@ import React from 'react'
 export const NotFound = () => {
 
   const mode = useSelector(state => state.dark)
-  const style = {fontSize:"1em"}
+  const style = {fontSize:"1em", fontWeight: '500'}
   return (
   
 
