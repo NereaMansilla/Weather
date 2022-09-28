@@ -110,7 +110,7 @@ body {
   }
 
   .vector {
-    width: 90%;
+    transform: rotate(90deg);
   }
 }
 
