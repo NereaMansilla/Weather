@@ -42,7 +42,7 @@ body {
 .containerText {
   position: absolute;
   top: 30%;
-  left: 60%;
+  left: 55%;
   z-index: 10;
   display: flex;
   flex-direction: column;
