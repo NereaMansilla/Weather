@@ -108,6 +108,7 @@ body {
 
   .text {
     font-size: 1.5em;
+    font-weight: 300;
   }
 
   .containerVector {
@@ -118,7 +119,7 @@ body {
 
     transform: rotate(90deg);
     width: 100%;
-    height: 45vh;
+    height: 50vh;
   }
 
   .containerText {
@@ -130,6 +131,7 @@ body {
     width: 100%;
     height: 5%;
     font-size: 1.5em;
+    margin-top: 5%;
   }
 }
 
