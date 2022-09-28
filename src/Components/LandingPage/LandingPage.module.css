@@ -109,8 +109,9 @@ body {
     font-size: 2em;
   }
 
-  .vector {
+  .containerVector {
     transform: rotate(90deg);
+    width: 50%;
   }
 }
 
