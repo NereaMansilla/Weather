@@ -109,6 +109,10 @@ body {
     font-size: 2em;
   }
 
+  .containerVector {
+    height: 100vh;
+  }
+
   .vector {
     background-color: red;
     transform: rotate(90deg);
