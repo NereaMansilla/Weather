@@ -121,7 +121,13 @@ body {
   }
 
   .containerText {
-    top: 40%;
+    top: 70%;
+  }
+
+  .button {
+    width: 100%;
+    height: 5%;
+    font-size: 1.5em;
   }
 }
 
