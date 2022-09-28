@@ -135,10 +135,13 @@ body {
   }
 
   .containerWeatherGirl {
-    background-color: blue;
     justify-content: center;
     align-items: flex-start;
     top: 10%;
+  }
+
+  .weatherGirl {
+    width: 80%;
   }
 }
 
