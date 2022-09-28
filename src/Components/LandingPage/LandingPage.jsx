@@ -9,10 +9,7 @@ export const LandingPage = () => {
   const style = {position:'relative', top:'5px'}
  
   return (
-    <div className={s.container} /* style={{ backgroundImage:`url(${image})`,backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition:'center center', backgroundAttachment: 'fixed',height:'auto'
-  }} */>  
- {/*  <div  style={{ backgroundImage:`url(${image})`,backgroundRepeat:"no-repeat",backgroundSize:"cover", backgroundPosition:'center center', backgroundAttachment: 'fixed',height:'auto'
-  }}>  */} 
+    <div className={s.container} >
   
     <div className={s.containerVector}>
        <img className={s.vector} src={vector} alt='vector' />
