@@ -101,9 +101,16 @@ body {
     overflow: hidden;
   }
 
+  .fText {
+    font-size: 3em;
+  }
+
+  .text {
+    font-size: 2em;
+  }
 
   .vector {
-    width: 70%;
+    width: 90%;
   }
 }
 
