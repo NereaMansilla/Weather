@@ -7,9 +7,9 @@
 
 }
 
-@media screen  and (max-width:600px){
-    .loading{
-        height:30vh;
-        width:30%
+@media screen and (max-width:600px) {
+    .loading {
+        height: 50vh;
+        width: 50%
     }
 }
