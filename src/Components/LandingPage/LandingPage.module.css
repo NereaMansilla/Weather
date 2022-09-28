@@ -114,10 +114,14 @@ body {
   }
 
   .vector {
-    background-color: red;
+
     transform: rotate(90deg);
     width: 100%;
     height: 50vh;
+  }
+
+  .containerText {
+    top: 40%;
   }
 }
 
