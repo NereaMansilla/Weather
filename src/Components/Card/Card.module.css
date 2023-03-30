@@ -22,7 +22,7 @@
 }
 
 .cardDay {
-    background: url(../../Assets/sun.avif);
+    background: url(../../Assets/sun2.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -30,7 +30,8 @@
 }
 
 .cardNight {
-    background: url(../../Assets/moon.avif);
+    background-image: url(../../Assets/moon2.jpg); 
+/*  background-color: blue; */
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(10px);
@@ -158,7 +159,7 @@
 
     .cardContainer {
         width: 350px;
-        height: 400px;
+        height: 450px;
         border-radius: 10%;
 
     }

@@ -9,7 +9,7 @@ import s from './Card.module.css'
 export const Card = ({ city, img }) => {
   const dispatch = useDispatch()
 
-
+console.log('DIA O NOCHE',city.current.is_day)
 
   const handleDelete = () => {
     dispatch(deleteSearch(city.location.tz_id))
