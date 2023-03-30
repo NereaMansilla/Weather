@@ -2,7 +2,7 @@
 
 Hola! 
 Esta es una web del clima que realice como primer proyecto en react js. Utiliza redux para el manejo de estados globales, y modules.css para los estilos. 
-Para correr el proyecto se debe ejectuar npm install en la carpeta raiz, y *npm start* para correrlo en la web. 
+Para correr el proyecto se debe ejectuar *npm install* en la carpeta raiz, y *npm start* para correrlo en la web. 
  
 
 Hello everyone!
