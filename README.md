@@ -14,5 +14,8 @@ You can also see the deploy here:
 
 
 <img src='./src/Assets/WeatherLanding.png' alt='img' /> 
+<img src='./src/Assets/WeatherCardDay.png' alt='img' /> 
+<img src='./src/Assets/WeatherCardNight.png' alt='img' /> 
+
 
 
