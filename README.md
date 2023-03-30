@@ -13,7 +13,6 @@ To run the proyect you have to use *npm install* in the root folder, and *npm st
 You can also see the deploy here:  
 
 
-<!-- <img src='../Assets/WeatherLanding.png' alt='img' /> -->
-![Screenshot](WeatherLading.png)
+<img src='./Assets/WeatherLanding.png' alt='img' /> 
 
 
